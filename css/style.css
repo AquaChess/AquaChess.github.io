@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, button, .amiibo-name {
 
 #intro {
     background-color: rgb(54, 57, 63);
-    background: url(/img/pexels-adrien-olichon-2387793.jpg);
+    background: url(../img/pexels-adrien-olichon-2387793.jpg);
     /*background-size: 100%;*/
     background-position: center;
 }
