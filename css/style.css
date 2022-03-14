@@ -1,0 +1,32 @@
+
+h1, h2, h3, h4, h5, button, .amiibo-name {
+    font-family: serif;
+}
+
+#navbar {
+    background-color: black;
+}
+
+#navbar-button {
+    background: url(../img/list-194.png);
+    position: relative;
+    background-position: 0px -8px;
+    background-size: 100%;
+}
+
+#intro {
+    background-color: rgb(54, 57, 63);
+    background: url(/img/pexels-adrien-olichon-2387793.jpg);
+    /*background-size: 100%;*/
+    background-position: center;
+}
+
+/*@media (max-width: 800px) {
+    #intro {
+        background-size: 1400px;
+    }
+}*/
+
+.text-notosans {
+    font-family: 'Noto Sans', sans-serif;
+}
