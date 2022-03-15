@@ -12,6 +12,10 @@ code {
     border-radius: 6px;
 }
 
+a{
+    text-decoration: none;
+}
+
 #navbar {
     background-color: black;
 }
