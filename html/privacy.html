@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aqua Bot</title>
+
+    <link rel="shortcut icon" href="https://cdn.discordapp.com/emojis/795469711441002537.webp?size=96&quality=lossless" type="image/x-icon">
+
+    <meta name="application-name" content="AquaBot">
+    <meta name="author" content="Miracle#5680">
+    <meta name="description" content="The best bot for chess players">
+    <meta name="keywords" content="Aqua, AquaBot, Chess, Discord">
+
+    <meta property="og:title" content="AquaBot">
+    <meta property="og:description" content="Play chess with your friends, lichess puzzles, chess profile, stats for chess.com and lichess, autoroles by elo and much more!">
+    <meta property="og:image" content="https://cdn.discordapp.com/avatars/518213843344687130/457fb986798d50d2b6aca2d73ab00a83.png?size=256">
+    <meta property="og:url" content="https://endofabyss.github.io/AquaWeb/">
+    <meta property="og:type" content="website">
+
+    
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet"> 
+</head>
+<body style="background-color: rgb(54, 57, 63);">
+    <!--NAVBAR-->
+    <nav id="navbar" class="navbar navbar-expand-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand text-notosans" href="../index.html">
+                <img src="https://cdn.discordapp.com/avatars/518213843344687130/457fb986798d50d2b6aca2d73ab00a83.png?size=64" alt="" width="32" height="32" class="d-inline-block align-text-center rounded-pill">
+                Aqua Bot
+            </a>
+
+            <button id="navbar-button" class="navbar-toggler"
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toogle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <!--Link in a new tab-->
+
+                    <li class="nav-item text-notosans"><a class="nav-link" href="https://discord.com/api/oauth2/authorize?client_id=518213843344687130&permissions=534992185424&scope=bot%20applications.commands" target="_blank">Add to Discord</a></li>
+                    <li class="nav-item text-notosans"><a class="nav-link" href="https://discord.gg/f3NP5JVQqr" target="_blank">Support Server</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--CONTENT-->
+    <div id="main-policy">
+        <div class="container">
+            <div class="row text-white pb-5" style="font-family: Arial, Helvetica, sans-serif;">
+                <div class="col-md-8 mx-auto">
+                    
+                    <h3 class="text-center fs-1 py-5" style="font-family: Arial, Helvetica, sans-serif;">
+                        Politica de Privacidad
+                    </h3>
+
+                    <p class="fs-3">Información que recogemos</p>
+                    <p>
+                        Información que recogemos de discord:
+                    </p>
+                    <ul>
+                        <li>Id del usuario. El Id de usuario es un identificador único que está vinculado a cada usuario de Discord.</li>
+                        <li>Nombre de usuario de Discord: El nombre de usuario es el nombre visible que cada usuario de Discord posee.</li>
+                        <li>Nombre de usuario de chess.com y lichess.org: AquaBot permite al usuario vincular sus cuentas de chess.com y lichess.org.</li>
+                        <li>Descripción del usuario: AquaBot permite al usuario agregar una descripción al perfil del usuario.</li>
+                        <li>Juegos de lichess.org: Son las partidas jugadas en lichess.org que has enviado en un canal de texto o que ha sido usando en determinados comandos.</li>
+                        <li>Torneos de lichess.org: Aqua almacena temporalmente links de torneos de lichess.org que han sido proporcionados por los usuarios.</li>
+                        <li>Datos de uso: Se almacena el total de veces que un comando ha sido usado, se almacenan los datos en conjunto y no por usuario.</li>
+                        <li>Partidas jugadas: Se almacenan las partidas jugadas por los usuarios usando a AquaBot.</li>
+                        <li>Id de servidores: Cada servidor de Discord tiene asociado un identificador único.</li>
+                        <li>Id de Roles de servidores: Se almacenan los identificadores de los roles de ciertos servidores al usar determinados comandos.</li>
+                    </ul>
+                    <br>
+                    <p>
+                        Información que recogemos de otras fuentes:
+                    </p>
+                    <ul>
+                        <li>Puntuaciones elo: Aqua almacena las puntuaciones Elo de las categorías bullet, blitz y rapid de las cuentas vinculadas de chess.com y lichess.org.</li>
+                        <li>Votos de Top.gg: Se almacenan el total de votos que ha realizado un usuario y la última vez que un usuario a votado por AquaBot.</li>
+                    </ul>
+
+                    <br>
+                    <p class="fs-3">Como usamos tu información</p>
+                    <p>
+                        La información recolectada se usará para el correcto funcionamiento de AquaBot y para mejorarlo:
+                    </p>
+                    <ul>
+                        <li>Id de usuario: El Id único de cada usuario se almacena para poder gestionar los datos que recopilamos de cada usuario, además nos permitirá poner en contacto con un usuario cuando sea necesario.</li>
+                        <li>Personalización de tu perfil: AquaBot le permite al usuario crear un perfil personalizable, nosotros almacenamos usamos cierta información almacenada para mostrar ese perfil. La información que se muestra incluye una pequeña descripción y las cuentas enlazadas de chess.com y lichess.org con sus respectivo Elo de las categorías bullet, blitz y rapid. El usuario en cualquier momento puede modificar su descripción y desenlazar sus cuentas de chess.com y lichess.org. Existe una funcionalidad en AquaBot que permite al usuario ocultar su perfil haciéndolo privado.</li>
+                        <li>Rankings: AquaBot usa los nombres de usuario para mostrarlos en el ranking. Existen 5 categorías de ranking que son ranking por puntucación elo, por número de votos, por la racha diaria, por el número de rompecabezas resuelto y por el número de monedas que el usuario posee. Los usuarios que tengan el perfil privado no serán mostrados en el ranking.</li>
+                        <li>Juegos de lichess.org: AquaBot permite configurar los servidores para que cuando un usuario envíe una partida AquaBot responda enviando el gif de esa partida, además existen ciertos comandos que necesitan almacenar temporalmente la partida para su correcto funcionamiento.</li>
+                        <li>Torneos de lichess.org: Existe un comando que permite al usuario agregar un torneo a la lista pública de torneos de AquaBot la cual puede ser vista por otro comando. Un torneo se almacenará hasta que esté empiece.</li>
+                        <li>Partidas almacenadas: AquaBot permite a los usuarios jugar ajedrez dentro de discord por medio de ciertos comandos. Estás partidas serán almacenadas para que los usuarios puedan verlas cuando deseen.</li>
+                        <li>Datos de servidores: AquaBot permite configurar los servidores, el id de los servidores se usan para mostrar mensajes automáticos y los id de los roles se usan para asignar roles de forma automática.</li>
+                        <li>Puntuaciones elo de lichess.org y chess.com: se almacenan para mostrar un ranking de puntuaciones elo por servidor.</li>
+                        <li>Tog.gg: Se detecta cada vez que alguien vota por AquaBot en top.gg, esto se hace para otorgar una recompensa en monedas para usarlas en la tienda de AquaBot, además se almacena el total de veces que un usuario ha votado para usarlo en el ranking de votos.</li>
+                    </ul>
+
+                    <br>
+                    <p class="fs-3">Como compartimos tu información</p>
+                    <p>
+                        La información que añades se mostrará solamente a los miembros de Discord que accedan a ella desde algún comando.
+                    </p>
+
+                    <br>
+                    <p class="fs-3">Conservación de datos</p>
+                    <p>
+                        La información será conservada durante el tiempo que sea necesaria para los fines para los cuales fueron recogidos.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--SCRIPTS-->
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    
+</body>
+</html>
